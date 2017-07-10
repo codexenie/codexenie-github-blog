@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+- 6.0.0
+
+install: npm install
+
+before_script:
+- git config --global user.name "verifycode"
+- git config --global user.email "verifycode@suresofttech.com"
+- sed -i "s/__GITHUB_TOKEN__/51c8c10d23a729430009cabd1c963cefcc00a8ff/" _config.yml
+
+script: npm run build
+
+branches:
+  only:
+  - master
+  - source
+  - stable
