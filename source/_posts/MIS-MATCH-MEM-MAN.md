@@ -1,6 +1,6 @@
 ---
 title: MIS_MATCH_MEM_MAN
-date: 
+date: rule
 tags: 
     - CWE-762
     - Mismatched Memory Management Rosutines
@@ -21,7 +21,7 @@ tags:
 ## CODE
 	
 ```cpp
-//GOOD CASE
+//BAD CASE 1
     class A{
         void foo(bool);
     };
@@ -36,7 +36,7 @@ tags:
         delete[] p;
     }
 
-//BAD CASE
+//BAD CASE 2
     class A {
         void foo();
     };
@@ -46,3 +46,7 @@ tags:
         delete ptr;
     }
 ```
+
+
+### BAD CASE 1
+ > 이상이 없어 보일 수 있지만, heap이 false인 경우 메모리가 할당이 되지 않은 상태에서 해제가 될 수 있다.
