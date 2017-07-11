@@ -1,11 +1,12 @@
 ---
 title: MIS_MATCH_MEM_MAN
-date: 2017-07-11 09:31:34
+date: 
 tags: 
     - CWE-762
     - Mismatched Memory Management Rosutines
 ---
-# cwe-762 Mismatched Memory Management Routines
+# mismatched memory management routines
+ > 메모리 할당과 해제시 잘못된 object 사용 
 
 ## Relationships
 
@@ -20,7 +21,7 @@ tags:
 ## CODE
 	
 ```cpp
-//BAD CASE 1
+//GOOD CASE
     class A{
         void foo(bool);
     };
@@ -35,7 +36,7 @@ tags:
         delete[] p;
     }
 
-//BAD CASE 2
+//BAD CASE
     class A {
         void foo();
     };
