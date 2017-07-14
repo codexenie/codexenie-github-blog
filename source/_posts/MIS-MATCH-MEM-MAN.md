@@ -1,6 +1,6 @@
 ---
 title: MIS_MATCH_MEM_MAN
-date: rule
+date:
 tags: 
     - CWE-762
     - Mismatched Memory Management Rosutines
