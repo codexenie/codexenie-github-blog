@@ -65,9 +65,6 @@ void f() {
 ```
 new[] 로 할당한 포인터는 반드시 delete [] 로 해제해야 한다.
 
-### 연관 규칙
-+ [RTE_Memory_Leak 프로그램 흐름에서 메모리 누수 금지](RTE_Memory_Leak.html)
-
 ### 관련 링크
 + [CWE-762: Mismatched Memory Management Routines](http://cwe.mitre.org/data/definitions/762.html)
 + [CERT C++  MEM31-CPP. Properly deallocate dynamically allocated resources](https://www.securecoding.cert.org/confluence/display/cplusplus/MEM31-CPP.+Properly+deallocate+dynamically+allocated+resources)
