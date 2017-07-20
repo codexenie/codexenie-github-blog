@@ -1,5 +1,5 @@
 ---
-title: VIRTUAL_DESTRUCTOR
+title: VIRTUAL DESTRUCTOR
 date:
 tags: 
     - Effective C++ item 7
