@@ -1,17 +1,14 @@
 ---
 title: DOUBLE_FREE
-tags: 
-    - CWE-415
-    - Double Free
-date: 2017-07-10 15:38:33
 ---
-## Double_Free 메모리 중복 해제 금지
-----
-해제된 포인터 변수를 다시 해제하면 예상하지 못한 메모리 위치를 변경시킬 수 있다. 
-### 설명
-같은 포인터 변수를 두 번 해제하면 프로그램이 메모리를 관리 하는 데이터 구조가 손상된다. 이 손상으로 프로그램이 종료되거나, 두 번의 메모리 할당이 같은 포인터를 반환하기도 한다. 메모리 할당이 같은 값을 두 번 반환하고, 이 메모리 영역을 공격자가 제어할 수 있다면 버퍼 오버플로우 공격을 할 수 있다. 
 
-#### __예제1__
+## Double_Free Prohibit deallocating memory duplication
+----
+If the deallocated pointer variable is deallocated again, the unexpected memory location can be changed. 
+### Description
+If the same pointer variable is deallocated twice, the data structure for controlling the memory can be damaged. Due to this damage, the program can be ended or two times memory allocation can return the same pointer. If the memory allocation returns the same value twice and the attacker can control this memory area, he can attack by buffer overflow. 
+
+#### __example 1__
 ```cpp
 char* ptr = (char*)malloc (SIZE);
 ...
@@ -21,14 +18,15 @@ if (abrt) {
     ...
 free(ptr);
 ```
-메모리 중복 해제는 일반적으로 다음의 두 원인으로 발생한다.
+Generally, the memory duplication deallocation is occurred by the following two reasons.
 
-+ 오류 조건이나 예외 상황
-+ 프로그램의 어떤 부분이 메모리 해제를 책임지는지 혼란스러운 상황
++ Error condition or exception situation
++ Confused situation which part of program is responsible for memory deallocation.
 
-몇몇 중복 해제 취약점은 예제보다 더 복잡하지 않지만 어떤 경우는 수백 줄 이상 떨어져 있거나 다른 파일에서 나타날 수 있다. 프로그래머는 특히 전역변수를 두 번 해제하는 경우가 많다.
+Several duplication deallocation weaknesses are not more complicated than the example, but in certain case, they can be occurred apart from more than hundreds lines or in the other file. A programmer frequently deallocates the global variable in particular twice.
 
-### 관련 링크
+
+### Related Link
 + [CWE 415: Double Free](http://cwe.mitre.org/data/definitions/415.html)
 
 ----

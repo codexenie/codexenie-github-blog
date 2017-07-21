@@ -1,9 +1,6 @@
 ---
 title: LACK INIT OBJ
-date:
-tags: 
-    - Effective C++ item 12
-    - Copy all parts of an object.
+
 ---
 ## Copy all parts of an object.
 ----

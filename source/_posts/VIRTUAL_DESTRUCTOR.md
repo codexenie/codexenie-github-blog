@@ -1,9 +1,5 @@
 ---
 title: VIRTUAL DESTRUCTOR
-date:
-tags: 
-    - Effective C++ item 7
-    - Declare destructors virtual in polymorphic base classes.
 ---
 ## Declare destructors virtual in polymorphic base classess.
 ----

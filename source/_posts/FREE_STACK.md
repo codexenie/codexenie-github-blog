@@ -1,3 +1,6 @@
+---
+title: FREE_STACK
+---
 ## Memory_Free_On_Stack_Variable Prohibit invalid size when allocating a memory by malloc
 ----
 When allocating a memory by malloc, the size shall be a valid value.
@@ -28,9 +31,6 @@ free(bar);
 ```
 Using the unexpected value shall be prevented by examining the preceding conditions before using it.
 
-### Related Rule
-
-+ [RTE_Mismatched_Memory_Management Prohibit allocating and deallocating dynamic memory not consistent with each other](RTE_Mismatched_Memory_Management.html)
 
 ### Related LInk
 + [CWE-590: Free of Memory not on the Heap](http://cwe.mitre.org/data/definitions/590.html)
