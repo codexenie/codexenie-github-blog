@@ -53,7 +53,7 @@ const char func2()
 
 
 ### Related Link
-+ ["Effective C++" Third Edition by Scott Meyers.] (http://aristeia.com/books.html) 
++ ["Effective C++" Third Edition by Scott Meyers.](http://aristeia.com/books.html) 
 + [CWE-562: Return of Stack Variable Address](https://cwe.mitre.org/data/definitions/562.html)
 
 ----

@@ -107,5 +107,5 @@ D& D::operator=(const D& rhs)
 Copy constructor and copy assignment operator of class C must copy whole member of class C.
 
 ### Related Link
-+ ["Effective C++" Third Edition by Scott Meyers.] (http://aristeia.com/books.html)
++ ["Effective C++" Third Edition by Scott Meyers.](http://aristeia.com/books.html)
 ----

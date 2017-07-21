@@ -67,7 +67,7 @@ Destructor of A must be virtual.
 
 
 ### Related Link
-+ ["Effective C++" Third Edition by Scott Meyers.] (http://aristeia.com/books.html) 
++ ["Effective C++" Third Edition by Scott Meyers.](http://aristeia.com/books.html) 
 + [CERT C++  OOP52-CPP. Do not delete a polymorphic object without a virtual destructor](https://www.securecoding.cert.org/confluence/display/cplusplus/OOP52-CPP.+Do+not+delete+a+polymorphic+object+without+a+virtual+destructor)
 
 ----

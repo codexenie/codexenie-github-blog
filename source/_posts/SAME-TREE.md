@@ -53,7 +53,7 @@ void func()
 
 
 ### Related Link
-+ ["Effective C++" Third Edition by Scott Meyers.] (http://aristeia.com/books.html) 
++ ["Effective C++" Third Edition by Scott Meyers.](http://aristeia.com/books.html) 
 + [CERT C++  OOP02-CPP. Do not hide inherited non-virtual member functions](https://www.securecoding.cert.org/confluence/display/cplusplus/OOP02-CPP.+Do+not+hide+inherited+non-virtual+member+functions)
 
 ----
