@@ -1,9 +1,6 @@
 ---
 title: MIS_MATCH_MEM_MAN
-date:
-tags: 
-    - CWE-762
-    - Mismatched Memory Management Rosutines
+
 ---
 ## Mismatched_Memory_Management Prohibit allocating and deallocating dynamic memory not consistent with each other
 ----
