@@ -1,11 +1,8 @@
 menu:
-    Blog: /
-    Archive: /archives/
-    GitHub: https://github.com/verifycode
-    Download: 
+    HOME: /
 
 favicon: https://avatars1.githubusercontent.com/u/29533708?v=3&s=460
-logo: https://avatars1.githubusercontent.com/u/29533708?v=3&s=460
+logo: http://cfile203.uf.daum.net/image/23489C4B5768FA031D7EBA
 
 # Comment
 # e.g disqus: seansun
