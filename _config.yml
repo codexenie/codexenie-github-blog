@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: VerifyCode Rule Page
+title: codeXenie Rule Page
 subtitle: Coding Helper Rule Blog for Visual Studio
 description: 
 author: CodeScroll
@@ -76,7 +76,7 @@ archive_generator:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://__GITHUB_TOKEN__@github.com/verifycode/verifycode.github.io.git
+  repo: https://__GITHUB_TOKEN__@github.com/codexenie/codexenie.github.io.git
   branch: master
 
 
