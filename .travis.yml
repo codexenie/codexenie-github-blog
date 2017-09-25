@@ -7,7 +7,7 @@ install: npm install
 before_script:
 - git config --global user.name "codexenie"
 - git config --global user.email "codexenie@suresofttech.com"
-- sed -i "s/__GITHUB_TOKEN__/51c8c10d23a729430009cabd1c963cefcc00a8ff/" _config.yml
+- sed -i "s/__GITHUB_TOKEN__/__YOUR_TOKEN_INPUT__/" _config.yml
 - hexo g -d
 
 script: npm run build
